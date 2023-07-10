@@ -1,10 +1,13 @@
-import { useState } from "react";
 import "./App.css";
+import "./components/Titulos";
+import Titulos from "./components/Titulos";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <div></div>;
+  return (
+    <>
+      <Titulos />
+    </>
+  );
 }
 
 export default App;
