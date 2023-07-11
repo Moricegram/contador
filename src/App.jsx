@@ -1,12 +1,15 @@
+import { Container } from "react-bootstrap";
 import "./App.css";
 import "./components/Titulos";
 import Titulos from "./components/Titulos";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <>
-      <Titulos />
-    </>
+    <Container>
+      <Titulos></Titulos>
+      {/* <Titulos /> */}
+    </Container>
   );
 }
 
